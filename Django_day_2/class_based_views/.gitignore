@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+
+# Environment variables (contains your passwords and secret keys)
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django specific
+*.log
+db.sqlite3
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Migration files (optional - teams differ on this)
+# */migrations/
